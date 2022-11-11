@@ -1,0 +1,286 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:  sans-serif;
+}
+
+.upfixed{
+    display: flex;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.upfixed>div{
+   
+    margin: auto;
+    width: 50%;
+    padding: 3px;
+    margin: 3px;
+    justify-content: end;
+   
+}#toplogo{
+    width: 15px;
+}.up1st{
+    display: flex;}
+  #upsec{
+    opacity: 0.5;
+  } #upsec:hover{
+    opacity: 1;
+  }
+    
+#hov{
+    color: gray;
+     
+}#hov:hover{
+color: rgb(107, 39, 39);
+}h4{
+
+cursor: pointer;
+}#upsec>a{
+color:rgb(190, 71, 35);
+}#up1st>a{
+color: rgb(190, 71, 35);
+opacity: 1;
+}.logo>img{
+width: 70px;
+}.logo{
+width: 9%;
+
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin-left: 20px;
+}nav{
+display: flex;
+align-items: center;
+position:sticky;
+justify-content: space-between;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+top: 0%;
+background-color: white;
+
+}#buttonsall{
+
+padding:0 40px;
+
+
+}
+#logins{
+margin-right: 20px;
+font-size: 30px;
+
+}#logins>button{
+text-decoration: none;
+border: 0px;
+}
+.signup{
+background-color: #7800CF;
+padding: 9px;
+padding-left: 11px;
+padding-right: 11px;
+border: 0px;
+}.signup>a{
+color: #f6f6f6;
+font-size: 14px;
+}
+
+
+.navlink{
+color: black;
+transition-duration: .6s;
+text-decoration: none;
+}#buttonsall>button{
+margin: 0 10px;
+border: 0px;
+background-color: white;
+font-weight: 400;
+}#logins{
+margin-right: 20px;
+}
+.imagesbigdiv img{
+width: 90%;
+}
+.imagesbigdiv{
+padding-top: 60px;
+display: flex;
+width: 90%;
+margin: auto;
+justify-content: space-evenly;
+
+}.bigdiv{
+text-align: center;
+margin-top: 20px;
+padding: 20px;
+}.bigdiv button{
+width: 10%;
+padding:17px;
+font-size: 16px;
+margin-top: 20px;
+border: 0px;
+background-color: rgb(78, 78, 176);
+color: white;
+}
+button:hover{
+padding-bottom: 10px;
+
+padding-right:10px ;
+box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.footer{
+display: flex;
+
+height: 450px;
+
+padding-left: 20%;
+padding-right: 20%;
+}.footerfirst{
+
+width: 30%;
+margin-right: 80px;
+}
+.footlogo{
+
+display: flex;
+padding-top: 70px;
+}.footmiddle{
+display: flex;
+
+width: 70%;
+
+}.footmiddle>div{
+padding-left: 30px;
+}.first{
+padding-top: 50px;
+margin-right: 90px;
+}.second{
+padding-top: 50px;
+}.first ul li , .second ul li{
+padding-top: 20px;
+list-style: none;
+}.lastfooter{
+margin-left: 30px;
+
+}li:nth-child(1){
+font-size: 20px;
+}.lastfooter>div{
+padding-top: 20px;
+padding-bottom: 20px;
+}.lastfooter>button{
+padding-top: 10px;
+padding-bottom: 10px;
+border: 0px;
+background-color: white;
+}.lastfooter>p{
+padding-top: 55px;
+}.abovefooter>img{
+
+width: 15%;
+
+
+}.abovefooter{
+display: flex;
+justify-content: space-between;
+padding: 70px;
+background-color: rgba(239, 239, 239, 0.97);
+}.insideallmeal{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 20px;
+}.insideallmeal img{
+width: 100%;
+}.insideallmeal{
+padding: 90px;
+}.allmea{
+margin: auto;
+text-align: center;
+width: 60%;
+padding-top: 30px;
+}.allmea h1{
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.container2ndlast{
+width: 90%;
+display: flex;
+margin: auto;
+padding: 20px;
+text-align: center;
+justify-content: space-around;
+}.container2ndlast img{
+
+width: 100%;
+}.container2ndlast>div{
+width: 90%;
+padding: 20px;
+
+}.container2ndlast p{
+font-size: 15px;
+line-height: 25px;
+padding-bottom: 20px;
+}.container2ndlast h3{
+padding-bottom: 20px;
+}.container2ndlast button{
+border: 0px;
+font-size: 10px;
+}.container2ndlast a{
+font-size: 13px;
+}.scnlstup{
+width: 50%;
+
+text-align: center;
+margin: auto;
+
+}.scnlstup>h1{
+padding-bottom: 20px;
+}
+
+
+
+/* common question */
+
+
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+body{
+background: #f6f6f6;
+}
+
+.common{
+width: 80%;
+margin: 100px auto;
+background: #fff;
+border-radius: 7px;
+
+}
+
+.common .heading{
+background: #7800CF;
+border-radius: 7px 7px 0px 0px;
+padding: 10px;
+color: #fff;
+text-align: center;
+font-family: "Rubik";
+}
+
+.faqs{
+padding: 0px 20px 20px;
+}
+
+::-webkit-details-marker{
+float: right;
+margin-top: 3px;
+}
+
+details{
+background: #f6f6f6;
+padding: 10px 20px;
+border-radius: 7px;
+margin-top: 20px;
+font-family: "Rubik";
+font-size: 14px;
+letter-spacing: 1px;
+cursor: pointer;
+}
+
+details summary{
+outline: none;
+}
