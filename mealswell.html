@@ -6,7 +6,240 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+        *{
+        padding: 0px;
+        margin: 0px;
+        font-family:  sans-serif;
+    }
+   
+    .upfixed{
+        display: flex;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    .upfixed>div{
+       
+        margin: auto;
+        width: 50%;
+        padding: 3px;
+        margin: 3px;
+        justify-content: end;
+       
+    }#toplogo{
+        width: 15px;
+    }.up1st{
+        display: flex;}
+      #upsec{
+        opacity: 0.5;
+      } #upsec:hover{
+        opacity: 1;
+      }
+        
+    #hov{
+        color: gray;
+         
+}#hov:hover{
+    color: rgb(107, 39, 39);
+}h4{
+    
+    cursor: pointer;
+}#upsec>a{
+    color:rgb(190, 71, 35);
+}#up1st>a{
+    color: rgb(190, 71, 35);
+    opacity: 1;
+}.logo>img{
+    width: 70px;
+}.logo{
+    width: 9%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    position:sticky;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    top: 0%;
+    background-color: rgb(96, 3, 3);
+    color: white;
+    height: 60px;
+   
+}#buttonsall{
+    
+    padding:0 40px;
+  
+  
+}nav>ul{
+    color: black;
+   display: flex;
+   
+    transition-duration:0.6s;
+    text-decoration: none;
+
+   
+}.logo{
+    font-size: 25px;
+}
+nav>ul li{
+    list-style:none;
+margin-right: 20px;
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif;
+position: relative;
+}nav>ul li>a{
+    font-family: Arial, Helvetica, sans-serif;
+font-weight: 500;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 500;
+color: white;
+text-decoration: none;
+}
+
+#buttonsall>button{
+margin: 0 10px;
+border: 0px;
+background-color: white;
+
+}#logins{
+    margin-right: 20px;
+   font-size: 30px;
+  
+}#logins>button{
+    text-decoration: none;
+   border: 0px;
+}
+.signup{
+    background-color: #7800CF;
+    padding: 9px;
+    padding-left: 11px;
+    padding-right: 11px;
+    border: 0px;
+}.signup>a{
+    color: #f6f6f6;
+    font-size: 14px;
+}
+#buttonsall>a{
+   padding: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+}#buttonsall{
+    margin-left: 10px;
+    margin-right: 10px;
+}.nav ul li:hover{
+    color: #890808;
+}
+#getstarted{
+    border: 0px;
+    font-size: 15px;
+    padding: 6px;
+    margin-right: 50px;
+}.dropdown_menue{
+    display: none;
+    
+}
+/* .dropdown_menue{
+    display: block;
+    position: absolute;
+    top: 100%;
+    background-color: rgb(96, 3, 3);
+} */
+.navg ul :hover{
+    color: green;
+}
+.navg ul li:hover  .dropdown_menue{
+    display: block;
+    position: absolute;
+    top: 100%;
+    background-color: rgb(96, 3, 3);
+}
+
+.dropdown_menue ul{
+    display: block;
+    margin: 10px;
+   
+}.dropdown_menue li{
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+</style>
 <body>
-    Hello brother
+    <div class="upfixed">
+       
+        <div class="up1st">
+           
+            <img id="toplogo" src="Untitled design.png">
+          <h4>  <a href="mealsmain.html"> meals</a></h4>
+        
+    </div>
+    <div id="upsec">
+        
+      <a href="mealswell.html"> <h4>meals<span id="hov">well</span></h4></a>
+    </div>
+   </div>
+   <nav class="navg">
+    <div class="logo">
+       
+        <a style="text-decoration:none;color:rgb(255, 255, 255)" href="mealsmain.html"><h4>mealswell</h4></a>
+    
+    </div>
+<ul>
+    
+    <li><a  href="">AboutFreshlyWell</a> 
+     
+   
+    
+    </li>
+    <li><a  href="">Our Solutionsl</a> 
+    
+        <div class="dropdown_menue">
+            <ul>
+                <li> <a href="learn.html">Employers</a>
+                </li>
+    
+                <li> <a href="learn.html">Healthcare Systems</a></li>
+                <li> <a href="learn.html">College&Universities</a></li>
+                <li><a href="learn.html">Health Plans & Senior Living</a></li>
+                <li><a href="learn.html">Partners</a></li>
+            </ul>
+        </div>
+    
+    </li>
+    <li><a class="navlink" href="">Markets We Serve</a>
+        <div class="dropdown_menue">
+            <ul>
+                <li> <a href="learn.html">Block</a>
+                </li>
+    
+                <li> <a href="learn.html">Library</a></li>
+                <li> <a href="learn.html">Webinar</a></li>
+                <li><a href="learn.html">News</a></li>
+                
+            </ul>
+        </div>
+    
+    </li>
+    <li><a class="navlink" href="">Resources</a> </li>
+
+    <li><a class="navlink" href="">Meal Delivery FAQs</a> </li>
+
+</ul>
+ 
+<div id="logins">
+<button id="getstarted">
+    <a style="text-decoration: none;" href="login.html">Get Started</a>
+</button>
+
+</div>
+
+</nav>
+
 </body>
 </html>

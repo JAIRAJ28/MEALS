@@ -6,437 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fresh UpTo=The Mark</title>
 </head>
-<style>
-    *{
-        padding: 0px;
-        margin: 0px;
-        font-family:  sans-serif;
-    }
-   
-    .upfixed{
-        display: flex;
-        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    }
-    .upfixed>div{
-       
-        margin: auto;
-        width: 50%;
-        padding: 3px;
-        margin: 3px;
-        justify-content: end;
-       
-    }#toplogo{
-        width: 15px;
-    }.up1st{
-        display: flex;}
-      #upsec{
-        opacity: 0.5;
-      } #upsec:hover{
-        opacity: 1;
-      }
-        
-    #hov{
-        color: gray;
-         
-}#hov:hover{
-    color: rgb(107, 39, 39);
-}h4{
-    
-    cursor: pointer;
-}#upsec>a{
-    color:rgb(190, 71, 35);
-}#up1st>a{
-    color: rgb(190, 71, 35);
-    opacity: 1;
-}.logo>img{
-    width: 70px;
-}.logo{
-    width: 9%;
-    
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-left: 20px;
-}nav{
-    display: flex;
-    align-items: center;
-    position:sticky;
-    justify-content: space-between;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-   
-}#buttonsall{
-    
-    padding:0 40px;
-  
-  
-}.navlink{
-    color: black;
-    transition-duration: .6s;
-    text-decoration: none;
-}#buttonsall>button{
-margin: 0 10px;
-border: 0px;
-background-color: white;
-font-weight: 400;
-}#logins{
-    margin-right: 20px;
-}#container{
-   
-    display: flex;
-    
-}.conimg{
-    width: 100%;
-    border: 1px solid green;
-}.conimg>img{
-    width: 100%;
-    
-}.writtencon{
-    
-    width: 59%;
-    background-color: rgb(127, 220, 187);
-}.writtencon>h1{
-    margin-top: 50px;
-    font-size: 50px;
-    font-weight: 750;
-    margin-left: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-}.writtencon>button{
-    margin: 30px 30px;
-    font-size: 15px;
-    padding: 10px 20px;
-    border-color: blue;
-   
-    color: blue
-}.writtencon
-.writtencon> h3 , label{
-    margin: 20px 30px;
-}.contemail>input{
-    width: 50%;
-    margin-top: 10px;
-    padding: 10px;
-}.contemail>input+input{
-    width: 20%;
-    margin-top: 10px;
-    padding: 10px;
-}.writtencon>p{
-    margin-top: 30px;
-    margin-bottom: 10px;
-}.conget{
-    background-color: blue;
-    
-}.body1>div{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
-    
-    text-align: center;
-}.body1>h1{
-    margin-left: 600px;
-    margin-top: 60px;
-    font-size: 45px;
-} p{
-    margin-top: 10px;
-}h3{
-    margin-top: 20px;
-}.inside{
-    position:absolute;
-    top: 100%;
-    left: 500px;
-    color:black;
-    font-size: 30px;
-    background: linear-gradient(to right, rgb(192, 192, 103), rgb(111, 227, 111),rgb(154, 154, 192));
-}.mealimages{
-    margin-top: 60px;
-    
-  
-  
-    background-image: url("backgroundmain.jpg");
-}.imagecont{
-    display:grid;
-   
-    grid-template-columns: repeat(3,1fr);
-
-    gap: 20px;
-    padding: 20px 20px ;
-
-}.imagecont>div>img{
-    width: 100%;
-    border-radius: 5px;
-}.mealcontain{
-    background-color: white;
-    width: 50%;
-    margin: auto;
-    margin-top: 60px;
-}.mealcontain>h2{
-   font-size: 45px;
-   padding: 20px;
-  
-}.mealcontain>button{
-   border: 0px;
-    width: 90%;
-    margin: 30px;
-    padding: 10px;
-    font-size: 18px;
-   
-    
-    background-color: rgb(82, 82, 181);
-}.mealcontain>button>a{
-    text-decoration: none;
-}.secondlast{
-    text-align: center;
-    margin-top: 40px;
-    background: linear-gradient(to right, rgb(44, 189, 225), rgb(0, 182, 0),rgb(25, 25, 126));
-}
-
-.firstplan,.secondplan,.subtotal{
-    display: flex;
-    justify-content: space-between;
-}.inside2ndlast{
-  width: 48%;
- 
-  margin: auto;
-  margin-top: 30px;
-  background-color: white;
-  padding: 20px;
-  border-radius: 20px;
-}#seconlastsomewhere{
-    display: flex;
-    justify-content: center;
-}#minus,#plus{
-    font-size: 20px;
-    border:0px;
-    padding:10px;
-    padding-bottom: 20px;
-    background-color: white;
-    
-}hr{
-    opacity: .2;
-    padding-top: 7px;
-    padding-bottom: 7px;
-}.planchange{
-    font-family: 30px;
-    padding:10px;
-
-}.para{
-    
-    padding: 30px;
-    padding-bottom: 20px;
-}.explore{
-    padding: 8px;
-    width: 20%;
-    font-size: 20px;
-   background-color: blue;
-   border: 0px;
-
-}.explore:hover{
-    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(126, 46, 97, 0.3) -10px 10px, rgba(104, 42, 82, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
-    padding-left: 10px;
-}.hov:hover{
-    padding-left: 20px;
-    padding-bottom: 10px;
-    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-}.footer{
-    display: flex;
-    
-    height: 450px;
-   
-    padding-left: 20%;
-    padding-right: 20%;
-}.footerfirst{
-  
-    width: 30%;
-    margin-right: 80px;
-}
-.footlogo{
-    
-    display: flex;
-    padding-top: 70px;
-}.footmiddle{
-    display: flex;
-  
-    width: 70%;
-    
-}.footmiddle>div{
-    padding-left: 30px;
-}.first{
-    padding-top: 50px;
-    margin-right: 90px;
-}.second{
-    padding-top: 50px;
-}.first ul li , .second ul li{
-  padding-top: 20px;
-  list-style: none;
-}.lastfooter{
-    margin-left: 30px;
-    
-}li:nth-child(1){
-    font-size: 20px;
-}.lastfooter>div{
-    padding-top: 20px;
-    padding-bottom: 20px;
-}.lastfooter>button{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: 0px;
-   background-color: white;
-}.lastfooter>p{
-    padding-top: 55px;
-}.abovefooter>img{
-    
-    width: 15%;
-    
-   
-}.abovefooter{
-    display: flex;
-    justify-content: space-between;
-    padding: 70px;
-    background-color: rgba(239, 239, 239, 0.97);
-}
-.popupbackground{
-    display: flex;
-   
-    margin-top: 50px;
-}
-.healthy{
-    background-color: white;
-    position: absolute;
-    left: 650px;
-    padding: 30px;
-    margin-top: 80px;
-}.healthy>input{
-    background-color: white;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 80%;
-    padding: 15px;
-    border-radius: 5px;
-    
-}.healthy>p{
-    padding: 10px;
-    color: gray;
-}
-.healthy h1{
-    font-size: 50px;
-}.healthy>button{
-    padding:10px;
-    margin-top: 20px;
-    width: 50%;
-    color: white;
-    border: 0px;
-    background-color: rgb(119, 119, 211);
-}.upbackfirst{
-    
-    background-color: white;
-    width: 40%;
-    position: absolute;
-    font-size: 20px;
-    padding: 40px;
-    margin-top: 80px;
-
-}.upbackfirst>button{
-  
-    padding:12px;
-    margin-top: 20px;
-    width: 50%;
-    color: white;
-    border: 0px;
-    background-color: rgb(119, 119, 211);
-}
-.upback{
-    margin-left: 33%;
-}
-
-.imagesbigdiv img{
-  width: 90%;
-}
-.imagesbigdiv{
-    padding-top: 60px;
-    display: flex;
-    width: 90%;
-    margin: auto;
-    justify-content: space-evenly;
-    
-}.bigdiv{
-    text-align: center;
-    margin-top: 20px;
-    padding: 20px;
-}.bigdiv button{
-    width: 10%;
-    padding:17px;
-    font-size: 16px;
-    margin-top: 20px;
-    border: 0px;
-    background-color: rgb(78, 78, 176);
-    color: white;
-}
-button:hover{
-  padding-bottom: 5px;
- 
-  padding-right:10px ;
-  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-}
-#slidenow img{
-    width: 50%;
-    padding-top: 20px;
-    padding-bottom: 30px;
-}
-#slidenow>div{
-    border: 1px solid green;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    
-
-}#slider{
-    
-    display: flex;
-    justify-content: space-around;
-    padding: 30px;
-
-}
-.slidemain{
-    border: 1px solid green;
-    text-align: center;
-}#slidenow h2{
-    font-size:20px;
-padding-bottom: 5px;
-font-family: 'Times New Roman', Times, serif;
-   
-}#slidenow p{
-    font-size: 11px;
-color: gray;
-    padding-top: 10px;
-    padding-bottom: 5px;
-}
-
-#slidenow{
-    width: 87%;
-    margin: auto;
-    border: 1px solid black;
-   
-    
-}.one{
-    width: 100%;
-}.st{
- 
-    width: 100%;
-    font-size: 40px;
-    margin-top: 50px;
-    background-color: white;
-}#on{
-   
-    width: 100%;
-   
-}#fakebutton ,#fakebutton2{
-    margin-top: 80px;
-    font-size: 50px;
-}
-
-</style>
+<link rel="stylesheet" href="stylemain.css">
 <body>
     <div class="upfixed">
+       
         <div class="up1st">
+           
             <img id="toplogo" src="Untitled design.png">
           <h4>  <a href="mealsmain.html"> meals</a></h4>
+        
     </div>
     <div id="upsec">
         
@@ -449,8 +27,10 @@ color: gray;
 
 
     <nav>
-        <div class="logo"><img src="Untitled design.png">
-        <h4>meals</h4>
+        <div class="logo">
+            <a style="text-decoration:none;color:black" href="mealsmain.html"></a><img src="Untitled design.png"></a>
+            <a style="text-decoration:none;color:black" href="mealsmain.html"><h4>meals</h4></a>
+        
         </div>
 <div id="buttonsall" >
     <button>
@@ -471,9 +51,9 @@ color: gray;
 </div>   
 <div id="logins">
     <button >
-        <a href="login.html">Login</a>
+        <a style="text-decoration: none;" href="login.html">Login</a>
     </button>
-    <button><a href="Signup.html">Signup</a></button>
+    <button class="signup" ><a href="mealsmain.html">Signup</a></button>
 </div>
 
     </nav>
@@ -494,14 +74,18 @@ color: gray;
     <label for="">Email Address</label>
     <label for="" style="margin-left:33%;">Zip code</label>
     <br>
-    <div class="contemail">
-    <input type="email" placeholder="meals@meals.com" required style="margin-left:30px ">
-    
-    <input type="password" maxlength="5" placeholder="1111" required style="margin-left:10px" >
-</div>
-    <br>
+    <div class="contemail ">
+      
+    <form id="fill1" action="">
+        <input class="toolo" type="email" placeholder="meals@meals.com" required style="margin-left:30px ">
+        
+        <input class="pas1" type="password" maxlength="5" placeholder="1111" required style="margin-left:10px" >
+        <br>
 
-    <button class="conget" style="color: white">Get Started</button>
+        <button class="conget" style="color: white">Get Started</button>
+    
+    </form>
+</div>
 
     <p style="margin-left:30px;font-size:17px">By continuing, you agree to ours <a href="terms.html">Terms</a> and<a href="terms.html"> Privacy policy</a><br>& will receive emails from meals.</p>
 </div>
@@ -734,7 +318,7 @@ color: gray;
 
 
     <div class="upback">
-        <img width="130%" height="700px" src="https://i0.wp.com/www.runninginaskirt.com/wp-content/uploads/2019/01/Easy-Vegetarian-Freezer-meals-wide.jpg?fit=1000%2C667&ssl=1" alt="">
+        <img width="100%" height="700px" src="https://i0.wp.com/www.runninginaskirt.com/wp-content/uploads/2019/01/Easy-Vegetarian-Freezer-meals-wide.jpg?fit=1000%2C667&ssl=1" alt="">
     </div>
    
     
@@ -806,12 +390,15 @@ color: gray;
     </div>
     <div class="healthy">
         <h1>Healthy Meals Delivered <br> Weekly</h1>
+<form id="signup2" action="">
+        <input class=".toolo" type="email" placeholder="meals@gmail.com" required>
+        <br>
+        <input class="pass1" type="password" minLength="5" maxlength="5" placeholder="ZIP" required>
+        <br>
+        <button class="conget" style="color: white">Get Started</button>
+    
 
-        <input type="email" placeholder="meals@gmail.com" required>
-        <br>
-        <input type="password" minLength="5" maxlength="5" placeholder="ZIP" required>
-        <br>
-        <button class="buttonhealth">GET STARTED</button>
+    </form>
         <p>Already had an account? <a href="Login.html">Login</a> </p>
         <p>By continuing, you agree to our <a href="terms.html">Terms</a> and <a href="Privacy">Privacy Policy.</a> & will receive emails from Freshly.</p>
     </div>
@@ -829,6 +416,54 @@ color: gray;
     <img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5f523f552759db186baf93d2_techcrunch-seeklogo.com%20%5BConverted%5D.svg" alt="">
     <img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5f523e434bbecc1909457f48_logo-header.aeb2e510354d524c42a87c5d0a97d0a73c5d7581.svg" alt="">
 </div>
+
+
+
+
+<div class="common">
+    <h1 class="heading">Common Questions</h1>
+    <div class="">
+       <details>
+          <summary>How many servings are your meals??</summary>
+          <p class="text">With a selection that spans nourishing breakfasts, lunches, and dinners, the majority of our meals are single serving and perfectly sized for 1 person to enjoy at 1 sitting. We also offer multi-serve proteins and sides, which are designed to feed multiple people for extra mealtime flexibility. These delicious, ready-to-heat options can help you bulk up existing meals, simplify home cooking, or even build an entire meal—the choice is yours!
+
+            We offer anywhere from 4–12 meals per week, with meals as low as $8.99 each—and you always have the freedom to flex your number of meals up each week to add on breakfast items*, which are unlocked upon your second order. On average, our meals weigh in at about 13 ounces and range from 300 to 650 calories. If you have a larger household, we do offer a 12 meal per week subscription (it’s ideal for couples or a family of 4 looking for 3 meals per week). Plus, you can always order multiple subscriptions. We may be biased, but there’s no better feeling than a fridge full of Freshly!
+            
+            *Each breakfast item counts towards your 12-meal maximum.</p>
+       </details>
+       <details>
+          <summary>Do you accommodate dietary preferences?</summary>
+          <p class="text">We accommodate a variety of dietary preferences, including gluten-free, dairy-free, peanut-free, plant-based, low-calorie, and carb-conscious options. As a customer, you can set your own dietary preferences and easily find the meals that work for you (learn more here). You can also check out individual ingredient lists for each dish if you have specific concerns.
+
+            If you’re unable to place an order that fits your preferences now, be sure to check back frequently as we’re always adding new and exciting dishes.
+            ‍
+            ‍Please note: We always recommend consulting your physician or nutritionist if you have any specific health concerns.</p>
+       </details>
+       <details>
+          <summary>How long do the meals last?</summary>
+          <p class="text">Our meals are chef prepared and delivered fresh, so typically they have a refrigerated shelf life of about 3-5 days. Select items (such as seafood) are best eaten first, so we’ll add a badge on the package to let you know. We usually suggest enjoying these meals within the first few days of receiving your order, but you can always check their exact use-by date on the back-of-pack nutrition label. If you’re ever unable to finish your meals within their shelf life, you can always pop them into the freezer for extended storage. Just be sure to microwave your meal straight from the freezer and add a few extra minutes to reach the 165° F internal temperature we recommend.</p>
+       </details>
+
+       <details>
+        <summary>How do I heat up my meals??</summary>
+        <p class="text">Your meals will come to you fully prepared so you just have to heat ‘em up in the microwave. On the back of each meal, you’ll find our easy steps for heating, but generally, the meals heat up in about 3 minutes (depending on your microwave). If you’re unsure, start at 2 minutes and heat in 30–second increments until the meal reaches an inner temperature of 165° F. Our meals are packaged to be heated in the microwave (for the ultimate convenience), but you can heat them in the oven if you’d like. Just so you know, our current meal containers aren’t safe for the oven or stovetop, so you’ll have to transfer your food to heat it up. You can check out the full oven reheat directions in our .</p>
+     </details>
+
+
+     <details>
+        <summary>How does shipping work??</summary>
+        <p class="text">To help guarantee your meals arrive in the freshest condition, there is a small shipping fee associated with your order. We deliver to all states within the continental U.S., and our shipping partners offer delivery every day of the week. The exact days that we can reach you will depend on your ZIP code and the carrier delivering your Freshly meals. Whether you're signing up or updating your typical delivery day, we'll show you all the days available to you so you can choose what's best for you.</p>
+     </details>
+
+
+     <details>
+        <summary>How does subscription work?</summary>
+        <p class="text">Every week you get to pick your selection of meals from our weekly rotation of 35+ options. Choose any number of meals between 4 and 12 per week, with meals as low as $9.58 each. You'll pick the most convenient delivery day for you, and we'll ship your chef-cooked meals right to your doorstep! If you ever need to skip or cancel a week, or size your order up or down, it's easy to make changes to your upcoming delivery before the weekly deadline</p>
+     </details>
+    </div>
+ </div>
+
+
 
 
 
@@ -893,13 +528,82 @@ color: gray;
     
 </body>
 </html>
+
+
+
+
+
+
+
+
+
 <script>
  
+ document.querySelector("form").addEventListener("submit",checkfunc);
+
+let ob=JSON.parse(localStorage.getItem("credentials"))||[];
+
+function checkfunc(event){
+
+event.preventDefault();
+let email=document.querySelector(".toolo").value;
+let passw=document.querySelector(".pas1").value;
+
+let obj={
+    email,
+   passw
+}
+ob.push(obj);
+console.log(console.log(ob));
+
+if(obj.emailId=="" || obj.password==""){
+    alert("Please fill the credentials");
+            return false;
+        }else{
+            localStorage.setItem("credentials", JSON.stringify(ob));
+            alert("Signed in suceessfully. Please click here to get logged in")
+
+        }
+        window.location.assign("addtocart.html");
+}
+
+checkfunc()
+
+
+
+document.querySelector("#signup2").addEventListener("submit",checkf);
+
+let ar=[];
+
+function checkf(event){
+
+event.preventDefault();
+let emai=document.querySelector(".toolo").value;
+let pass=document.querySelector(".pas1").value;
+
+let obj={
+    emai,
+   pass
+}
+ar.push(obj);
+
+console.log(ar);
+
+if(obj.emailId=="" || obj.password==""){
+    alert("Please fill the credentials");
+            return false;
+        }else{
+            localStorage.setItem("credentials", JSON.stringify(ar));
+            alert("Signed in suceessfully. Please click here to get logged in")
+
+        }
+        window.location.assign("addtocart.html");
+}
+
+checkf()
 
 
 </script>
-
-
 
 
 
