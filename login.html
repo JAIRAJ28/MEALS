@@ -299,11 +299,13 @@ let signin = JSON.parse(localStorage.getItem("credentials")) || [];
           if(element.email==mail && password==element.passw){
                 flag=true
           }
+
          });
         
       
         if(flag==true){
             alert("login successful.")
+            window.location.assign("addtocart.html")
         }else{
             alert("wrong credentials")
         }

@@ -7,6 +7,40 @@
     <title>Fresh UpTo=The Mark</title>
 </head>
 <link rel="stylesheet" href="stylemain.css">
+
+<style>
+    @media only screen and (min-width: 500px) and (max-width: 768px){
+    .upfirst{
+       display: none;
+    }
+     .body1>div{
+        background-color: #7800CF;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+     
+     }.body h1{
+        margin: auto;
+       font-size: 10px;
+     }
+nav{
+    top: 0;
+    position:fixed ;
+}.container{
+    overflow: hidden;
+}
+
+.inside{
+position:absolute;
+top:100%;
+
+left: 200px;
+color:black;
+font-size: 20px;
+background: linear-gradient(to right, rgb(192, 192, 103), rgb(111, 227, 111),rgb(154, 154, 192));
+}
+
+}
+</style>
 <body>
     <div class="upfixed">
        
@@ -92,9 +126,10 @@
 </div>
 
 <div class="body1">
+    
      <h1>How it works</h1>
 
-     <div>
+     <div class="grid">
         <div>
       <img style="margin-top:35px;"  src="https://assets-global.website-files.com/5d03b4e130118314af624b20/62b0b19dbc5f55c4206158f7_choose-your-meals%20(1).svg" alt="">
        <h3>Choose Your Meals</h3>
@@ -232,62 +267,11 @@
 </div>
 
     <div id="slidenow">
- <!-- < append the images an the slider function over here. --> 
+
 
           <div id="on">
 
-            <div>
-            <img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg" alt="">
-            <h2>"Freshly has changed our lives!"</h2>
-            <p>With Freshly, we don’t have to go anywhere or wait for delivery, and our monthly food bill has been cut nearly <br> in half. We love it.</p>
-            <h2>Stephan</h2>
-
-        </div>
-<div>
-            <img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg" alt="">
-            <h2>"10 stars! Awesome! Love it!"</h2>
-            <p>With Freshly, we don’t have to go anywhere or wait for delivery, and our monthly food bill has been cut nearly in <br> We love it.</p>
-            <h2>Lexi</h2>
-
-        </div>
-<div>
-            <img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg" alt="">
-            <h2>"One of the easiest decisions I've made"</h2>
-            <p>With Freshly, we don’t have to go anywhere or wait for delivery, and our monthly food bill has been cut nearly in half. <br> We love it.</p>
-            <h2>Daemon</h2>
-        </div>
-        
-
-
-   
-   
-   
-    <div>
-    <img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg" alt="">
-    <h2>"Amazingly delicious and convenient!"</h2>
-    <p>I love that I have found freshly and that it allows me to try new things and allows me to eat healthy while remaining affordable!</p>
-    <h2>Dave</h2>
-</div>
-   
-
-
-<div>
-    <img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg" alt="">
-    <h2>"Freshly has changed our lives!"</h2>
-    <p>Been a customer for more than a year now, and love it. Customer service is particularly outstanding — whenever there’s been a problem, Freshly staff respond quickly and always rectify the problem.</p>
-    <h2>Dave</h2>
-</div>
-  
-
-
-<div>
-    <img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg" alt="">
-
-    <h2>"Eat Delicious, Live Delicious"</h2>
-    <p>With Freshly, we don’t have to go anywhere or wait for delivery, and our monthly food bill has been cut nearly in half. We love it.</p>
-    <h2>JAI RAJ SINGH</h2>
-</div>
-
+            <!-- < append the images an the slider function over here. -->  
 
 </div>  
 </div> 
@@ -420,7 +404,7 @@
 
 
 
-<div class="common">
+<!-- <div class="common">
     <h1 class="heading">Common Questions</h1>
     <div class="">
        <details>
@@ -464,7 +448,7 @@
  </div>
 
 
-
+ -->
 
 
 
@@ -538,6 +522,123 @@
 
 
 <script>
+
+let arr=[
+
+{
+    img:"https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg",
+    head:"Freshly has changed our lives!",
+    h1:"With Freshly, we don’t have to go anywhere or wait for delivery, and our monthly food bill has been cut nearly in half. We love it.",
+    n:"Dave"
+
+},
+{
+    img:"https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg",
+    head:"Freshly has changed our lives!",
+    h1:"We love Freshly because it takes two minutes to prepare, the food is great and we don’t have to spend time cleaning up.",
+    n:"Sheri"
+
+}
+,
+{
+    img:"https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg",
+    head:"Eat Delicious Live Delicious",
+    h1:"With Freshly, I don’t have to think about what I’m going to eat for lunch each day and feel good knowing that I’m eating a healthy meal. I love the convenience!",
+    n:"JAI Raj SINGH"
+
+
+},
+
+{
+    img:"https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg",
+    head:"Convenience, taste, variety",
+    h1:"Been a customer for more than a year now, and love it. Customer service is particularly outstanding — whenever there’s been a problem, Freshly staff respond quickly and always rectify the problem.",
+
+    n:"Jeffrey"
+},
+{
+    img:"https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg",
+    head:"One of the easiest decisions I've made",
+    h1:"I love that I have found freshly and that it allows me to try new things and allows me to eat healthy while remaining affordable!",
+
+    n:"Joeys"
+},
+{
+    img:"https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg",
+    head:"10 stars! Awesome! Love it!",
+    h1:"I love that I have found freshly and that it allows me to try new things and allows me to eat healthy while remaining affordable!",
+
+    n:"Kall"
+}
+
+]
+
+let count=0;
+
+//    ;
+
+
+
+
+function display(arr){
+    document.querySelector("#on").innerHTML="";
+for(let i=count;i<=count;i++){
+
+if(count>arr.length-1 || count<=0){
+    count=0;
+    clearInterval(interval)
+    clearInterval(interval2)
+}
+else{
+
+ let div=document.createElement("div");
+let img=document.createElement("img");
+img.src=arr[i].img;
+let n=document.createElement("h3");
+n.innerText=arr[i].head;
+
+let h1=document.createElement("p");
+h1.innerText=arr[i].h1
+
+let k=document.createElement("h2");
+k.innerText=arr[i].n
+
+div.append(img,n,h1,k);
+document.querySelector("#on").append(div);
+
+}
+}
+}
+
+let interval;
+document.querySelector("#fakebutton2").addEventListener("click",function(){
+  
+   interval=setTimeout(function(){
+       count++;
+       display(arr)
+    },1000)
+   
+
+})
+let interval2
+document.querySelector("#fakebutton").addEventListener("click",function(){
+  
+  interval2=setTimeout(function(){
+      count--;
+      display(arr)
+   },1000)
+  
+
+})
+
+
+
+
+
+
+
+
+
  
  document.querySelector("form").addEventListener("submit",checkfunc);
 
@@ -601,6 +702,13 @@ if(obj.emailId=="" || obj.password==""){
 }
 
 checkf()
+
+
+
+
+
+
+
 
 
 </script>

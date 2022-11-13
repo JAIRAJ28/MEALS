@@ -7,7 +7,10 @@
     <title>Document</title>
 </head>
 <link rel="stylesheet" href="plansmenue.css">
+<link rel="stylesheet" href="chatspprt/chat.css">
 
+
+<script src="https://kit.fontawesome.com/e6ce591280.js" crossorigin="anonymous"></script>   
 <body>
     <div class="upfixed">
         <div class="up1st">
@@ -96,19 +99,19 @@
         <p>Whatever your lifestyle, Freshly’s got you covered—with gluten-free, dairy-free, plant-based, carb-smart, and calorie-conscious meal options! Our heat-&-eat breakfasts, low-lift lunches, and done-for-you dinners provide an effortless alternative to everyday cooking, with nutritious prepared meals delivered fresh to your door. Explore this week’s dishes and start eating better:</p>
     </div>
 <div>
-    <div>
+    <div >
     <label for="Menu category:
     ">Menu category:
 </label>
 </div>
 <div>
-    <select>
+    <select onchange="change()">
     
     <option value="" rel="All Meals">All Meals</option>
-    <option value="" rel="Proteins &amp; Sides">Purely Plant</option>
-    <option value="" rel="Home Bistro">Signature Collection</option>
-    <option value="" rel="Feel-Better Food">FreshlyFit</option>
-    <option value="" rel="Proteins &amp; Sides">Proteins &amp; Sides</option>
+    <option value="BBQ" rel="Proteins &amp; Sides">Purely Plant</option>
+    <option value="Heartly" rel="Home Bistro">Signature Collection</option>
+    <option value="Puchka " rel="Feel-Better Food">FreshlyFit</option>
+    <option value="Homestyle" rel="Proteins &amp; Sides">Proteins &amp; Sides</option>
 </select>
 </div>
 </div>
@@ -285,10 +288,62 @@
                     <img width="150px" src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5d643dd558306bfe1df5ef8b_google-play-badge.png" alt="">
                 </button>
             </div>
-        
-        </div>
+  
+ 
+            <div class="chat-bar-collabsible">
+                <button id="chat-button" type="button" class="collapsible">Chat with us!
             
+                    <i id="chat-icon"
+                    class="fa-sharp fa-solid fa-headset"></i>
+                </button>
+                  <div class="content">
+                    
+                    <div class="full-chat-box"> 
+                      
+                         <div class="outer-container">
+                  <div class="chat-container"> 
+                     
+            
+                       <div id="chatbox">
+                        <h5 id="chat-timestamp"></h5>
+                        <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                       </div>
+            
+                       <!-- User input boc -->
+            
+                       <div class="chat-input-block"></div>
+                       <div id="userinput">
+                        <input type="text" id="textInput" class="input-box" name="msg"
+                        placeholder="Tap Enter To send a Message">
+                        <p></p>
+                       </div>
+                          
+                       <div class="chat-bar-icon">
+                        <i id="chat-icon" style="color:rgb(123, 74, 74);" class="fa-solid fa-comment"
+                        onclick="heartbutton()"></i>
+                        <i id="chat-icon" style="color:rgb(123, 74, 74);" class="fa-solid fa-paper-plane-top"
+                        onclick="sendbutton()"></i>
+                       </div>
+                  </div>
+                 
+                        </div>
+                    </div>
+            
+                  </div> 
+            
+            </div>
+
+      
+       
+    <!-- CHAT BAR BLOCK -->
+
+     
+
+  
+
+       
 </body>
+<script src="chatspprt\responses.js"></script>
 </html>
 
 <script>
@@ -298,6 +353,7 @@
    {
     img:"https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66bb765dff2da0c2e1fb_635823f4ce4929328b1f96f9_production-meal-image-9e969581-d09c-4617-9b17-d455d23c8952.jpeg",
      name:"BBQ Bison Burger",
+     id:"BBQ",
      description:"670CAl|Gluten Free| Single-Serve"
  
 },
@@ -518,7 +574,7 @@
 
 
 function display(array){
-   
+    document.querySelector(".insideallmeal").innerHTML="";
   array.forEach(element => {
     let div=document.createElement("div");
    let img=document.createElement("img")
@@ -536,6 +592,29 @@ function display(array){
 
 
 }
-display(array)
+
+display(array) 
+
+
+
+function change(){
+let q=document.querySelector("select")
+
+if(q.value==""||q.value==undefined){
+    display(array) 
+}
+else {
+    let newData=array.filter(function(el){
+       
+        return el.name.includes(q.value)
+    })
+    display(newData)
+
+}
+
+
+}
 
 </script>
+
+

@@ -6,9 +6,536 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+.footer{
+display: flex;
+
+height: 450px;
+
+padding-left: 20%;
+padding-right: 20%;
+}.footerfirst{
+
+width: 30%;
+margin-right: 80px;
+}
+.footlogo{
+
+display: flex;
+padding-top: 70px;
+}.footmiddle{
+display: flex;
+
+width: 70%;
+
+}.footmiddle>div{
+padding-left: 30px;
+}.first{
+padding-top: 50px;
+margin-right: 90px;
+}.second{
+padding-top: 50px;
+}.first ul li , .second ul li{
+padding-top: 20px;
+list-style: none;
+}.lastfooter{
+margin-left: 30px;
+
+}li:nth-child(1){
+font-size: 20px;
+}.lastfooter>div{
+padding-top: 20px;
+padding-bottom: 20px;
+}.lastfooter>button{
+padding-top: 10px;
+padding-bottom: 10px;
+border: 0px;
+background-color: white;
+}.lastfooter>p{
+padding-top: 55px;
+}.abovefooter>img{
+
+width: 15%;
+
+
+}.abovefooter{
+display: flex;
+justify-content: space-between;
+padding: 70px;
+background-color: rgba(239, 239, 239, 0.97);
+}nav{
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  height: 50px;
+  margin-bottom: 30px;
+  border: 1px solid rgb(11, 1, 1);
+}.link{
+  display: flex;
+
+}.link a{
+  margin: 20px;
+}.mainflex{
+  width: 100%;
+  height: 0;
+  border: 1px solid blue;
+}    .insideallmeal img{
+     width: 100%;
+    }.insideallmeal{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 10px;
+        margin-right: 20px;
+    }.flexed{
+        display: flex;
+    }.insideallmeal div>div{
+    display: flex;
+    justify-content:space-between;
+
+    }.insideallmeal button{
+       width: 10%;
+       height: 20%;
+       margin-top: 20px;
+    }.insideallmeal>div{
+        border: 1px solid green;
+        padding: 20px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    .checkout{
+        width: 70%;
+    }.sub{
+      display: flex;
+      justify-content: space-evenly;
+      
+    }.sub>div+div{
+      margin-left: 90px;
+    }.container{
+      overflow: hidden;
+      height: 600px;
+      border: 1px solid green;
+
+    }
+</style>
 <body>
-    <h1>Will be done soon.</h1>
+   
+
+
+
+
+
+
+
+
+
+   <nav>
+      <button class="backtomain"><</button>
+       
+      <div class="link">
+        <a href="addtocart.html">meal</a>
+        <h2>></h2>
+        <a href="checkout">Checkout</a>
+      </div> 
+<div style="display:flex ;">
+      <i style="padding:20px" class="fa-sharp fa-solid fa-arrow-down-a-z"></i>
+      <h4>Filter</h4>
+    </div>
+        </nav>        
+ 
+
+    <div class="flexed"> 
+<div class="insideallmeal">
+<!-- appended the items -->
+</div>
+
+<div class="checkout">
+  
+    <h1>
+        Check it out
+    </h1>
+
+
+    <div class="container" style="width:300px">
+    <!-- append the meals -->
+    </div>
+  
+    <div class="sub">
+      <div>
+   <h3>Subtotal <span class="incr">0</span></h3>
+  </div>
+   <div>
+   <img width="20%" src="https://tse2.mm.bing.net/th?id=OIP.AjhItNLVsGLvY8lND-NAlQHaHP&pid=Api&P=0" alt=""><span class="incr">0</span>
+  </div>
+    </div>
+<button style="background-color:blue;width:100%;color:white">ADD To CART</button>
+</div>
+</div>
+</div>
+
+<div class="footer">
+
+    <div class="footerfirst">
+        <div class="footlogo">
+            <img width="30px" src="Untitled design.png" alt="">
+             <h2>MEALS</h2>
+        </div>
+        <p style="font-size: 10px;padding-left: 8px;">@MEALS INC.</p>
+    </div>
+    <div class="footmiddle">
+        <div class="first">
+            <ul style="font-size:13px ;">
+                <li>Company</li>
+                <li>Career</li>
+                <li>Contact Us</li>
+                <li>Press</li>
+                <li>Terms</li>
+                <li>Privacy</li>
+                <li>Affilates</li>
+                <li>Partnership</li>
+            </ul>
+        </div>
+
+
+        <div class="second">
+            <ul style="font-size:13px ;">
+                <li>Learn More</li>
+                <li>Plan & Menu</li>
+                <li>Why Freshly?</li>
+                <li>Gifts</li>
+                <li>FAQs</li>
+                <li>Blog</li>
+                <li>Students</li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="lastfooter">
+    <p>Join us</p>
+    <div class="logofooter">
+        <img width="20px" src="https://tse4.explicit.bing.net/th?id=OIP.aYVbqEFb2M-SWsBh_LafIQHaHa&pid=Api&P=0" alt="">
+        <img  width="20px" src="https://tse2.mm.bing.net/th?id=OIP.rnqM8FdAZl_UTkCSIeH-9QHaHY&pid=Api&P=0" alt="">
+        <img  width="20px" src="https://tse3.mm.bing.net/th?id=OIP.JJWXebLkn2_fMj26SIS2EwHaHa&pid=Api&P=0" alt="">
+        <img  width="20px" src="https://tse4.mm.bing.net/th?id=OIP.LnJYpKrpFwziAB4QqhPa0AHaHa&pid=Api&P=0" alt="">
+    </div>
+        <button>
+            <img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5d6439d4fb92e7630e46976b_Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="">
+            
+        </button>
+        <br>
+        <button>
+            <img width="150px" src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5d643dd558306bfe1df5ef8b_google-play-badge.png" alt="">
+        </button>
+    </div>
+
+</div>
+    
+
 </body>
+<script src="https://kit.fontawesome.com/e6ce591280.js" crossorigin="anonymous"></script>
 </html>
 
-<script></script>
+<script>
+  let array=[
+
+{
+ img:"https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66bb765dff2da0c2e1fb_635823f4ce4929328b1f96f9_production-meal-image-9e969581-d09c-4617-9b17-d455d23c8952.jpeg",
+  name:"BBQ Bison Burger",
+  description:"670CAl|Gluten Free| Single-Serve",
+  price:"250"
+  
+
+},
+{
+ img:"https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66bb8cd4f9d87ba86916_635823f4ce492977d91f974a_production-meal-image-f0de55be-d691-4ade-bc26-b4a8aedaa1fe.jpeg",
+  name:"BBQ Bison Burger",
+  description:"770CAl|Gluten Free| Single-Serve",
+  price:"350"
+},
+
+{
+ img:"https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66bb8b1f5aa9b139be56_635823f4ce492904901f973e_production-meal-image-c9eef45a-97a9-487c-9550-71488e5f639a.jpeg",
+  name:"BBQ Bison Burger",
+  description:"630CAl|Gluten Free| Single-Serve",
+  price:"450"
+
+},
+
+{
+ img:"https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66bb5ae22f4680ff53d8_635823f4ce492947161f9738_production-meal-image-e4122aa8-0fe7-4854-b6f5-e27e0c5be918.jpeg",
+  name:"Homestyle Chicken",
+  description:"580Al|Gluten Free| Single-Serve",
+  price:"750"
+},
+{
+ img:"https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66b840d40d297183f389_635823f4ce49299d611f97d0_production-meal-image-32de8264-0b85-40b5-b910-032a2f8ebece.jpeg",
+  name:"Seared Beef Brisket & BBQ Sauce",
+  description:"580Al|Gluten Free| Single-Serve",
+  price:"750"
+
+},
+{
+ img:"https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66b909fc4a2e520ddc35_635823f4ce492955611f97b7_production-meal-image-7a187b20-0f13-45d7-9417-5a1b9e0f9662.jpeg",
+  name:"Salememon",
+  description:"580Al|Gluten Free| Single-Serve",
+  price:"750"
+
+},
+{
+ img:"https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66b7715eea290d4e0c46_635823f4ce49292fd51f9792_production-meal-image-eea55b43-0737-4923-912f-d2aa340a7bc0.jpeg",
+  name:"DUM DUM BIRYANI",
+  description:"580Al|Gluten Free| Single-Serve",
+  price:"750"
+
+},
+{
+ img:"https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66b9243b2459120f9492_635823f4ce4929bd771f976e_production-meal-image-5bd23e4d-884e-4c36-b685-bfff1db5834f.jpeg",
+  name:"Puchka DUM",
+  description:"580Al|Gluten Free| Single-Serve",
+  price:"750"
+
+},
+{
+ img:"https://tse1.mm.bing.net/th?id=OIP.RtBOgby_70OHSB8eJ_LNEwHaE7&pid=Api&P=0",
+  name:"Puchka",
+  description:"580Al|Gluten Free| Single-Serve",
+  price:"150"
+
+},
+{
+ img:"https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66bb5ae22f4680ff53d8_635823f4ce492947161f9738_production-meal-image-e4122aa8-0fe7-4854-b6f5-e27e0c5be918.jpeg",
+  name:"Homestyle Chicken",
+  description:"580Al|Gluten Free| Single-Serve",
+  price:"1050"
+},
+{
+ img:"https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66b840d40d297183f389_635823f4ce49299d611f97d0_production-meal-image-32de8264-0b85-40b5-b910-032a2f8ebece.jpeg",
+  name:"Seared Beef Brisket & BBQ Sauce",
+  description:"580Al|Gluten Free| Single-Serve",
+  price:"600"
+
+},
+{
+ img:"https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66b90238ebb8449aab1b_635823f4ce492929e91f977c_production-meal-image-74a2ccd1-00a7-40df-b3cf-df2e105b657d.jpeg",
+  name:"Heartly Bowl",
+  description:"770CAl|Gluten Free| Single-Serve",
+  price:"350"
+
+},
+
+{
+ img:"https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66bb8cd4f9d87ba86916_635823f4ce492977d91f974a_production-meal-image-f0de55be-d691-4ade-bc26-b4a8aedaa1fe.jpeg",
+  name:"Turquoto Rante",
+  description:"770CAl|Gluten Free| Single-Serve",
+  price:"350"
+},
+
+{
+ img:"https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66b7fb2692a7db3e6768_635823f4ce492905c21f97a9_production-meal-image-857e178e-6526-43e2-a8f3-7b8eb178c3c1.jpeg",
+  name:"Eclispso Buffona",
+  description:"770CAl|Gluten Free| Single-Serve",
+  price:"350"
+},
+{
+ img:"https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66b7ba0d1073f5595991_635823f4ce492901801f9780_production-meal-image-c87d5ef6-072c-4e75-a8e1-fef772ef1b13.jpeg",
+  name:"BBQ Bison Burger",
+  description:"770CAl|Gluten Free| Single-Serve",
+  price:"350"
+},
+{
+ img:"https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66bb8cd4f9d87ba86916_635823f4ce492977d91f974a_production-meal-image-f0de55be-d691-4ade-bc26-b4a8aedaa1fe.jpeg",
+  name:"BBQ Bison Burger",
+  description:"770CAl|Gluten Free| Single-Serve",
+  price:"950"
+},
+{
+ img:"https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66bb8cd4f9d87ba86916_635823f4ce492977d91f974a_production-meal-image-f0de55be-d691-4ade-bc26-b4a8aedaa1fe.jpeg",
+  name:"BBQ Bison Burger",
+  description:"770CAl|Gluten Free| Single-Serve",
+  price:"1050"
+
+},
+{
+ img:"https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66b90238ebc3759aab15_635823f4ce4929cb2d1f97b5_production-meal-image-c735f24b-3626-45ec-97be-b64910120b11.jpeg",
+  name:"Hearty Veggie Bolognese",
+  description:"770CAl|Gluten Free| Single-Serve",
+  price:"150"
+
+},
+{
+ img:"https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66bb765dff2da0c2e1fb_635823f4ce4929328b1f96f9_production-meal-image-9e969581-d09c-4617-9b17-d455d23c8952.jpeg",
+  name:"BBQ Bison Burger",
+  description:"670CAl|Gluten Free| Single-Serve",
+  price:"340"
+
+},
+{
+ img:"https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66bb8cd4f9d87ba86916_635823f4ce492977d91f974a_production-meal-image-f0de55be-d691-4ade-bc26-b4a8aedaa1fe.jpeg",
+  name:"BBQ Bison Burger",
+  description:"770CAl|Gluten Free| Single-Serve",
+  price:"450"
+
+},
+
+{
+ img:"https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66bb8b1f5aa9b139be56_635823f4ce492904901f973e_production-meal-image-c9eef45a-97a9-487c-9550-71488e5f639a.jpeg",
+  name:"BBQ Bison Burger",
+  description:"630CAl|Gluten Free| Single-Serve",
+  price:"1150"
+
+},
+
+{
+ img:"https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66bb5ae22f4680ff53d8_635823f4ce492947161f9738_production-meal-image-e4122aa8-0fe7-4854-b6f5-e27e0c5be918.jpeg",
+  name:"Homestyle Chicken",
+  description:"580Al|Gluten Free| Single-Serve",
+  price:"450"
+
+},
+{
+ img:"https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66b840d40d297183f389_635823f4ce49299d611f97d0_production-meal-image-32de8264-0b85-40b5-b910-032a2f8ebece.jpeg",
+  name:"Seared Beef Brisket & BBQ Sauce",
+  description:"580Al|Gluten Free| Single-Serve",
+  price:"130"
+
+},
+{
+ img:"https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66b909fc4a2e520ddc35_635823f4ce492955611f97b7_production-meal-image-7a187b20-0f13-45d7-9417-5a1b9e0f9662.jpeg",
+  name:"Salememon",
+  description:"580Al|Gluten Free| Single-Serve",
+  price:"250"
+},
+{
+ img:"https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66b7715eea290d4e0c46_635823f4ce49292fd51f9792_production-meal-image-eea55b43-0737-4923-912f-d2aa340a7bc0.jpeg",
+  name:"DUM DUM BIRYANI",
+  description:"580Al|Gluten Free| Single-Serve",
+  price:"450"
+
+},
+{
+ img:"https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66b9243b2459120f9492_635823f4ce4929bd771f976e_production-meal-image-5bd23e4d-884e-4c36-b685-bfff1db5834f.jpeg",
+  name:"Puchka DUM",
+  description:"580Al|Gluten Free| Single-Serve",
+  price:"250"
+},
+{
+ img:"https://tse1.mm.bing.net/th?id=OIP.RtBOgby_70OHSB8eJ_LNEwHaE7&pid=Api&P=0",
+  name:"Puchka",
+  description:"580Al|Gluten Free| Single-Serve",
+  price:"450"
+},
+{
+ img:"https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66bb5ae22f4680ff53d8_635823f4ce492947161f9738_production-meal-image-e4122aa8-0fe7-4854-b6f5-e27e0c5be918.jpeg",
+  name:"Homestyle Chicken",
+  description:"580Al|Gluten Free| Single-Serve",
+  price:"520"
+
+},
+{
+ img:"https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66b840d40d297183f389_635823f4ce49299d611f97d0_production-meal-image-32de8264-0b85-40b5-b910-032a2f8ebece.jpeg",
+  name:"Seared Beef Brisket & BBQ Sauce",
+  description:"580Al|Gluten Free| Single-Serve",
+  price:"860"
+
+},
+{
+ img:"https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66b90238ebb8449aab1b_635823f4ce492929e91f977c_production-meal-image-74a2ccd1-00a7-40df-b3cf-df2e105b657d.jpeg",
+  name:"Heartly Bowl",
+  description:"770CAl|Gluten Free| Single-Serve",
+  price:"320"
+},
+{
+ img:"https://tse3.mm.bing.net/th?id=OIP.iiaxyaMEPiIIkQo_aI_O0wHaFj&pid=Api&P=0",
+  name:"Biryani",
+  description:"580Al|Gluten Free| Single-Serve",
+  price:"230"
+
+},
+{
+ img:"https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66b9243b2459120f9492_635823f4ce4929bd771f976e_production-meal-image-5bd23e4d-884e-4c36-b685-bfff1db5834f.jpeg",
+  name:"Puchka DUM",
+  description:"580Al|Gluten Free| Single-Serve",
+  price:"450"
+
+},
+{
+ img:"https://tse2.mm.bing.net/th?id=OIP.SB3w11EEA2k7YzrWEzthxwHaFj&pid=Api&P=0",
+  name:"Puchka Fries",
+  description:"580Al|Gluten Free| Single-Serve",
+  price:"910"
+
+},
+{
+ img:"https://assets-global.website-files.com/5d03b4e130118314af624b20/62fb492393696224964e1910_6-7%20Meals-p-500.png",
+  name:"Puchka DUM",
+  description:"580Al|Gluten Free| Single-Serve",
+  price:"320"
+
+},
+{
+ img:"https://assets-global.website-files.com/5d03b4e130118314af624b20/62fb492794414230d9d0e1be_10-11%20Meals-p-500.png",
+  name:"Chicken",
+  description:"580Al|Gluten Free| Single-Serve",
+  price:"120"
+
+},
+
+
+]
+
+function display(array){
+   
+   array.forEach((element,index) => {
+     let div=document.createElement("div");
+     let div2=document.createElement("div");
+
+    let img=document.createElement("img")
+    img.src=element.img
+ 
+    let name=document.createElement("h2")
+    name.innerText=element.name;
+    let des=document.createElement("h5");
+    des.innerText=element.description;
+    des.style.color="gray"
+    let price=document.createElement("h2")
+    price.innerText=element.price;
+   let button=document.createElement("button");
+   button.innerText="+";
+   button.addEventListener("click",function (){
+    check(array,index)
+   });
+
+   div2.append(price,button);
+    div.append(img,name,des,div2);
+    document.querySelector(".insideallmeal").append(div);
+    
+ 
+
+
+ });
+ 
+ 
+ }
+ display(array)
+
+ function check(data,i){
+      let arr=JSON.parse(localStorage.getItem("added to"))||[];
+      let k= data[i].name +"-"+ data[i].price
+      arr.push(k);
+      localStorage.setItem("added to",JSON.stringify(arr));
+    }
+    let arr2=JSON.parse(localStorage.getItem("added to"));
+console.log(arr2)
+document.querySelector(".incr").innerText=arr2.length
+
+function display2(arr){
+
+  arr.forEach((element) =>{
+    console.log(element)
+   let k=document.createElement("p");
+   k.innerText=element;
+   document.querySelector(".container").append(k);
+  })
+}
+display2(arr2)
+
+</script>
