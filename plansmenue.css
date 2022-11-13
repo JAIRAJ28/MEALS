@@ -284,3 +284,23 @@ cursor: pointer;
 details summary{
 outline: none;
 }
+.insideallmeal img:hover{
+  transform: scale(1.1);
+transition-duration: 3s
+}.insideallmeal>div{
+  overflow:hidden;
+}.insideallmeal>div{
+  overflow: hidden;
+}
+select{
+  padding: 10px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+
+}
+label{
+  display: block;
+ margin-top: 60px;
+  margin-left: 690px;
+}
